@@ -1,13 +1,10 @@
-alert("Oi Lucas");
-console.log("Oi João");
+var titulo = document.querySelector(".titulo");
+titulo.textContent = "Lucas Nutrição";
 
+var paciente = document.querySelector("#primeiro-paciente");
 
-var titulo = document.querySelector("h1");
-titulo.textContent = "Kleber Nutrição";
+var tdPeso = paciente.querySelector(".info-peso");
+var peso = tdPeso.textContent;
 
-var trPaulo = document.querySelector("#Paulo")
-
-console.log(trPaulo);
-
-var tdPeso = trPaulo.querySelector(".info-peso");
-tdPeso.textContent = "150";
+var tdAltura = paciente.querySelector(".info-altura")
+var altura = tdAltura.textContent;
